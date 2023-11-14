@@ -1,0 +1,48 @@
+2023-11-14T17:13:24.086+08:00  INFO 10472 --- [main] com.example.ext.StartApplication         : Starting StartApplication using Java 17.0.8 with PID 10472 (D:\Data\Code\java-management-service\java-management-start\target\classes started by Administrator in D:\Data\Code\java-management-service)
+2023-11-14T17:13:24.089+08:00  INFO 10472 --- [main] com.example.ext.StartApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-14T17:13:25.206+08:00  WARN 10472 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.ext]' package. Please check your configuration.
+2023-11-14T17:13:26.000+08:00  INFO 10472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-11-14T17:13:26.025+08:00  INFO 10472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-14T17:13:26.025+08:00  INFO 10472 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-14T17:13:26.211+08:00  INFO 10472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-14T17:13:26.212+08:00  INFO 10472 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2059 ms
+2023-11-14T17:13:27.091+08:00  WARN 10472 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-14T17:13:27.097+08:00  INFO 10472 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-14T17:13:27.122+08:00  INFO 10472 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-14T17:13:27.153+08:00 ERROR 10472 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2023-11-14T17:14:26.093+08:00  INFO 15836 --- [main] com.example.ext.StartApplication         : Starting StartApplication using Java 17.0.8 with PID 15836 (D:\Data\Code\java-management-service\java-management-start\target\classes started by Administrator in D:\Data\Code\java-management-service)
+2023-11-14T17:14:26.096+08:00  INFO 15836 --- [main] com.example.ext.StartApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-14T17:14:26.609+08:00  WARN 15836 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.ext]' package. Please check your configuration.
+2023-11-14T17:14:26.981+08:00  INFO 15836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2023-11-14T17:14:26.990+08:00  INFO 15836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-14T17:14:26.991+08:00  INFO 15836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-14T17:14:27.148+08:00  INFO 15836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-14T17:14:27.149+08:00  INFO 15836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1008 ms
+2023-11-14T17:14:28.223+08:00  INFO 15836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2023-11-14T17:14:28.244+08:00  INFO 15836 --- [main] com.example.ext.StartApplication         : Started StartApplication in 2.527 seconds (process running for 3.01)
+2023-11-14T17:18:09.787+08:00  INFO 18636 --- [main] com.example.ext.StartApplication         : Starting StartApplication using Java 17.0.8 with PID 18636 (D:\Data\Code\java-management-service\java-management-start\target\classes started by Administrator in D:\Data\Code\java-management-service)
+2023-11-14T17:18:09.789+08:00  INFO 18636 --- [main] com.example.ext.StartApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-14T17:18:10.431+08:00  WARN 18636 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.ext]' package. Please check your configuration.
+2023-11-14T17:18:11.153+08:00  INFO 18636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2023-11-14T17:18:11.174+08:00  INFO 18636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-14T17:18:11.174+08:00  INFO 18636 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-14T17:18:11.332+08:00  INFO 18636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-14T17:18:11.333+08:00  INFO 18636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1508 ms
+2023-11-14T17:18:12.215+08:00  INFO 18636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2023-11-14T17:18:12.232+08:00  INFO 18636 --- [main] com.example.ext.StartApplication         : Started StartApplication in 2.78 seconds (process running for 3.277)
+2023-11-14T17:18:12.236+08:00  INFO 18636 --- [main] com.example.ext.StartApplication         : 项目启动成功
