@@ -35,10 +35,49 @@
         <spring-boot-starter-web-version>3.1.5</spring-boot-starter-web-version>
         <mybatis-plus-boot-starter-version>3.5.3.1</mybatis-plus-boot-starter-version>
         <mysql-connector-java-version>8.0.20</mysql-connector-java-version>
+        <springfox-swagger2-version>3.0.0</springfox-swagger2-version>
+        <springfox-boot-starter-version>3.0.0</springfox-boot-starter-version>
+        <swagger-annotations-version>2.2.16</swagger-annotations-version>
+        <javax.validation.api.version>2.0.1.Final</javax.validation.api.version>
+        <springdoc-openapi-starter-webmvc-ui-version>2.2.0</springdoc-openapi-starter-webmvc-ui-version>
 
     </properties>
     <dependencyManagement>
         <dependencies>
+            <!--校验-->
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>${javax.validation.api.version}</version>
+            </dependency>
+
+            <!--swagger-->
+            <!-- https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-annotations -->
+            <!--<dependency>-->
+            <!--    <groupId>io.swagger.core.v3</groupId>-->
+            <!--    <artifactId>swagger-annotations</artifactId>-->
+            <!--    <version>${swagger-annotations-version}</version>-->
+            <!--</dependency>-->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+                <version>${springdoc-openapi-starter-webmvc-ui-version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter -->
+            <!--<dependency>-->
+            <!--    <groupId>io.springfox</groupId>-->
+            <!--    <artifactId>springfox-boot-starter</artifactId>-->
+            <!--    <version>${springfox-boot-starter-version}</version>-->
+            <!--</dependency>-->
+
+            <!--<dependency>-->
+            <!--    <groupId>io.springfox</groupId>-->
+            <!--    <artifactId>springfox-swagger2</artifactId>-->
+            <!--    <version>${springfox-swagger2-version}</version>-->
+            <!--</dependency>-->
+
+
             <!--mysql数据库连接驱动-->
             <dependency>
                 <groupId>mysql</groupId>
@@ -72,19 +111,19 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis-spring-boot-starter-version}</version>
             </dependency>
-
+            <!--导入JSR303规范 数据校验-->
             <dependency>
                 <groupId>javax.validation</groupId>
                 <artifactId>validation-api</artifactId>
                 <version>${javax.validation.api.version}</version>
             </dependency>
+            <!--实用工具-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${org.projectlombok.version}</version>
                 <optional>true</optional>
             </dependency>
-
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-devtools</artifactId>

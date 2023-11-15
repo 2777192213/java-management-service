@@ -38,6 +38,19 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
 
+        <!--&lt;!&ndash; swagger &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--    <groupId>io.swagger.core.v3</groupId>-->
+        <!--    <artifactId>swagger-annotations</artifactId>-->
+        <!--    &lt;!&ndash;<version>${swagger-annotations-version}</version>&ndash;&gt;-->
+        <!--</dependency>-->
+
+        <!--校验-->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+        </dependency>
+
 
     </dependencies>
 </project>

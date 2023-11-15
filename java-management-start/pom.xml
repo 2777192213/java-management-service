@@ -26,10 +26,27 @@
             <artifactId>java-management-ext</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <!--实用工具-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!--swagger-->
+        <!--<dependency>-->
+        <!--    <groupId>io.springfox</groupId>-->
+        <!--    <artifactId>springfox-boot-starter</artifactId>-->
+        <!--</dependency>-->
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
